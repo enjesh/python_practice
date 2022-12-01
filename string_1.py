@@ -1,3 +1,5 @@
+print ("Welcome to the world of Python")
+
 word = 'Marathon'
 
 word[0] # character in position 0
@@ -9,3 +11,5 @@ word[2:5]  # characters from position 2 (included) to 5 (excluded)
 word[:2]   # character from the beginning to position 2 (excluded)
 word[4:]   # characters from position 4 (included) to the end
 word[-2:]  # characters from the second-last (included) to the end
+print (len (word))
+print (word)

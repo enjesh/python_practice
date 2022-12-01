@@ -1,5 +1,9 @@
 # python_practice
 Learning Python Programming Language
+Python is a beginner-friendly programming language, and its structure is often compared to the English language.
+Use Python to automate everyday processes, build apps and even create games. The possibilities are endless!!!
+
+
 
 # Comments
 Comments in Python start with the hash character (#) and extend to the end of the physical line.

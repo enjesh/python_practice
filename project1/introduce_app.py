@@ -27,3 +27,6 @@ print (f"""Everyone, meet {name}! {name}'s favorite
 color is {color}. {name}'s favorite food 
 is {food}. {name}'s favorite TV show is 
 {show}.""")
+
+# String formatting is a quick way to insert your variable values into a sentence.
+# f"This is a sentence {variable}."

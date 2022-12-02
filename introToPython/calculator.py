@@ -15,5 +15,8 @@
 
 width = 20
 height = 5 * 9
-width * height
+x = width * height
+print (x)
 
+y = width **2
+print (y)

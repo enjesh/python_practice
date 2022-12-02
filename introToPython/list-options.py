@@ -65,3 +65,14 @@ print (combs)
 a = [-1, 1, 66.25, 333, 333, 1234.5]
 del a[0]
 print(a)
+
+
+a = ['one', 'two', 3, 'four']
+print(a)
+
+a.append('seven')
+print(a)
+
+b = ['nine', 10, 'fifty', 'sixty']
+a.append(b)
+print(a)

@@ -10,5 +10,6 @@ for i in range(5):
 
 
 a = ['Mary', 'had', 'a', 'little', 'lamb']
+print (len(a))
 for i in range(len(a)):
     print(i, a[i])

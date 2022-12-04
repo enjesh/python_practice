@@ -1,11 +1,11 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
-fruits.count('apple')
+print(fruits.count('apple'))
 
-fruits.count('tangerine')
+print(fruits.count('tangerine'))
 
-fruits.index('banana')
+print(fruits.index('banana'))
 
-fruits.index('banana', 4)  # Find next banana starting at position 4
+print(fruits.index('banana', 4))  # Find next banana starting at position 4
 
 fruits.reverse()
 print (fruits)
@@ -35,15 +35,15 @@ stack.pop()
 print (stack)
 
 # Using lists as Queues
-from collections import deque
-queue = deque(["Eric", "John", "Michael"])
-queue.append("Terry")           # Terry arrives
-queue.append("Graham")          # Graham arrives
-queue.popleft()                 # The first to arrive now leaves
+# from collections import deque
+# queue = deque(["Eric", "John", "Michael"])
+# queue.append("Terry")           # Terry arrives
+# queue.append("Graham")          # Graham arrives
+# queue.popleft()                 # The first to arrive now leaves
 
-queue.popleft()                 # The second to arrive now leaves
+# queue.popleft()                 # The second to arrive now leaves
 
-print (queue)                   # Remaining queue in order of arrival
+# print (queue)                   # Remaining queue in order of arrival
 
 # List Comprehensions
 squares = []

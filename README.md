@@ -3,8 +3,22 @@ Learning Python Programming Language
 Python is a beginner-friendly programming language, and its structure is often compared to the English language.
 Use Python to automate everyday processes, build apps and even create games. The possibilities are endless!!!
 
+# Numbers
+There are 2 number types
+    int(integer) - whole number no decimal. Can be positive, negative or zero.
+    float - number that contains a decimal point. Can be positive, negative or zero.
+The type() function tells if the number is an int or float.
 
-
+# Order of operations
+PEMDAS
+    Parenthesis
+    Exponents
+    Multiplication
+    Division
+    Addition
+    Subtraction
+Not all equations are created equal.
+Python calculates values from left to right.
 # Comments
 Comments in Python start with the hash character (#) and extend to the end of the physical line.
 

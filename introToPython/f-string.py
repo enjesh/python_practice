@@ -110,3 +110,50 @@ print('3.14159265359'.zfill(5))
 # Old string formatting
 import math
 print('The value of pi is approximately %5.3f.' % math.pi)
+
+
+
+# mode can be 'r' when the file will only be read, 'w' for only writing (an existing file with the same name will be erased),
+# and 'a' opens the file for appending; any data written to the file is automatically added to the end.
+# 'r+' opens the file for both reading and writing.
+# The mode argument is optional; 'r' will be assumed if it’s omitted
+f = open('workfile', 'w', encoding="utf-8")
+# with open('workfile', encoding="utf-8") as f:
+#     read_data = f.read()
+
+# We can check that the file has been automatically closed.
+print(f.closed)
+
+# f.read()
+
+
+
+# for line in f:
+#     print(line, end='')
+
+f.write('This is a test\n')
+f.write('This is another test\n')
+
+
+
+value = ('the answer', 42)
+s = str(value)  # convert the tuple to string
+print(f.write(s))
+
+
+f = open('workfile', 'rb+')
+f.write(b'0123456789abcdef')
+
+print(f.seek(5))      # Go to the 6th byte in the file
+
+print(f.read(1))
+
+print(f.seek(-3, 2))  # Go to the 3rd byte before the end
+
+print(f.read(1))
+
+
+
+# import json
+# x = [1, 'simple', 'list']
+# json.dumps(x)
